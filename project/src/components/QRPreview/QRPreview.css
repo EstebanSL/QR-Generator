@@ -1,0 +1,33 @@
+.QRPreview-container {
+  width: 350px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 1rem;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.QRPreview-container__code {
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.QRPreview-container__image {
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.QRPreview-container__image canvas {
+  border-radius: 10px;
+}
+
+.QRPreview-container__information h2 {
+  color: hsl(218, 44%, 22%);
+  hyphens: auto;
+  word-wrap: anywhere;
+}
+
+.QRPreview-container__information p {
+  color: hsl(220, 15%, 55%);
+}

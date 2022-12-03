@@ -1,0 +1,43 @@
+.QRForm__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  min-width: 350px;
+}
+
+.QRForm__container--item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .5rem;
+}
+
+.QRForm__container--item__input {
+  padding: .5rem 1rem;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+}
+
+
+.QRForm__container--item__check {
+  display: flex;
+}
+
+.QRForm__container--item__check label {
+  margin-left: 1rem;
+}
+
+
+.QRForm__container--button {
+  padding: .5rem 1rem;
+  margin: auto;
+  width: 100%;
+  background-color: hsl(218, 44%, 22%);
+  color: white;
+  border-radius: 10px;
+  font-family: 'Outfit', sans-serif;
+}

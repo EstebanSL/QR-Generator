@@ -1,0 +1,7 @@
+#root {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
+}
