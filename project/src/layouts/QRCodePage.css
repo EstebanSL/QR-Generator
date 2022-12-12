@@ -8,3 +8,10 @@
   padding: 1rem;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 767px) {
+
+  .QRCodePage {
+    flex-direction: column-reverse;
+  }
+}
